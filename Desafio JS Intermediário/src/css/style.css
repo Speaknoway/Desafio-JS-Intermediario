@@ -43,6 +43,7 @@ section{
     margin: 20px;
 }
  .formulario span{
+    font-size: 8px;
     margin: 20px;
     color: red;
  }
@@ -87,10 +88,10 @@ section{
  }
 
 
- .preenchido{
+ .formulario .preenchido{
     border: 1px solid #3ccc87;
  }
 
- .nao-preenchido{
+ .formulario .nao-preenchido{
     border: 1px solid red;
  }
