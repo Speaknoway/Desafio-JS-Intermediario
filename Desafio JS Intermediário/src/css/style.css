@@ -1,0 +1,96 @@
+body{
+    display: flex;
+    background-image: url(../images/bg-repeat.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+    min-height: 100vh;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-principal{
+    color: #ffffff;
+    display: block;
+    min-width: 300px;
+    margin: 50px;
+    
+}
+
+.texto-principal h1{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.texto-principal p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.formulario{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    background-color: #ffffff;
+    border-radius: 10px;
+    min-width: 600px;
+    height: 90vh;
+    padding-top: 20px;
+    margin: 20px;
+}
+ .formulario span{
+    margin: 20px;
+    color: red;
+ }
+ 
+.formulario .esconder{
+    display: none;
+}
+.formulario input, textarea{
+    display: flex;
+    font-size: 15px;
+    font-weight: 700;
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid;
+    border-radius: 2px;
+    padding: 9px;
+}
+
+.formulario input:first-child{
+    margin-top: 0;
+}
+
+.formulario textarea{
+    height: 300px;
+}
+
+.formulario p{
+    padding-top: 30px;
+    margin: 0 20px 100px 20px;
+ }
+
+ .formulario .enviarForm{
+    background-color: #3ccc87;
+    border: none;
+    justify-content: center;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 12px;
+    height: 42px;
+ }
+
+
+ .preenchido{
+    border: 1px solid #3ccc87;
+ }
+
+ .nao-preenchido{
+    border: 1px solid red;
+ }

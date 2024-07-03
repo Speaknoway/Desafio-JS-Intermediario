@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio JS Intermediário - Formulário</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <main class="container">
+        <section>
+            <div class="texto-principal">
+                <h1>FICOU COM DÚVIDA?<br>NOS MANDE UMA MENSAGEM!</h1>
+                
+                <p> caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+            </div>
+
+            <form class="formulario" id="formulario">
+                <input class="dadosDoCliente" type="text" name="nome"  placeholder="Nome Completo *">
+                <span class="aviso esconder">* Campo obrigatório</span>
+
+                <input class="dadosDoCliente" type="email" name="email"  placeholder="E-mail *">
+                <span class="aviso esconder">* Campo obrigatório</span>
+
+                <input class="dadosDoCliente" type="tel" name="phone"  placeholder="Telefone *">
+                <span class="aviso esconder">* Campo obrigatório</span>
+                
+                <textarea class="dadosDoCliente" type="text" name="message" placeholder="Mensagem *"></textarea>
+                <span class="aviso esconder">* Campo obrigatório</span>
+                
+                <p>* Campos obrigatórios</p>
+
+                <input class="enviarForm" type="submit" id="enviar">
+            </form>
+        
+        </section>
+
+
+
+    </main>
+    
+
+    <script src="./src/index.js"></script>
+</body>
+</html>
