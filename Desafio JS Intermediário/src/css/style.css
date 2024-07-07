@@ -48,7 +48,7 @@ section{
     color: red;
  }
  
-.formulario .esconder{
+.formulario span.esconder{
     display: none;
 }
 .formulario input, textarea{
@@ -70,6 +70,7 @@ section{
 
 .formulario textarea{
     height: 300px;
+    resize: none;    
 }
 
 .formulario p{
